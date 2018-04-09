@@ -1,0 +1,313 @@
+
+.m_header {
+    width: 100%;
+    max-width:7.5rem;
+    min-width:3.2rem;
+    background: url(../images/myself-banner.png) no-repeat;
+    background-size: cover;
+    height: 3.2rem;
+    margin: 0 auto;
+    z-index: 20;
+}
+
+.m_header .m_header_left{
+    width: 0.46rem;
+    height: 0.46rem;
+    font-size: 0.46rem;
+    color: white;
+    padding-left: 0.22rem;
+    padding-top: 0.2rem;
+    float: left;
+}
+
+.m_header .m_header_right{
+    width: 0.46rem;
+    height: 0.46rem;
+    font-size: 0.46rem;
+    color: white;
+    float: right;
+    margin-right: 0.22rem;
+    padding-top: 0.2rem;
+}
+
+.m_header .header-con{
+    padding-top: 1.28rem;
+    padding-left: 0.22rem;
+}
+
+.m_header .header-con>img{
+    float: left;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 0.6rem;
+}
+
+.header-con-right a{
+    margin-left: 1.4rem;
+    padding-left: 0.3rem;
+    padding-top: 0.05rem;
+    color: white;
+    background: #ff2307;
+    border-radius: 0.4rem;
+    width: 1.8rem;
+    height: 0.5rem;
+    display: block;
+    margin-top: 0.2rem;
+}
+
+.m_header .header-con .header-con-right .name{
+    font-size: 0.28rem;
+    padding-left: 1.4rem;
+    padding-top: 0.1rem;
+    color: white;
+}
+
+.x1{
+    width: 20%;
+    height: 1.4rem;
+
+}
+
+.m_header .header-con .header-con-right .x2{
+    float: right;
+    width: 25%;
+    height: auto
+
+}
+
+.m_header .header-con .header-con-right .x2 img{
+    float: right;
+    width: 1.2rem;
+    height: 0.6rem;
+    margin-top: -1rem;
+    margin-right: 0.4rem;
+}
+
+.m_header .header-con .header-con-right .x2 p{
+    color: white;
+    margin-left: 0.05rem;
+    font-size: 0.30rem;
+    margin-top: -0.4rem;
+}
+/*头部结束*/
+
+/*.line{
+    width: 100%;
+    height: 0.1rem;
+    background: #ff2307;
+}*/
+
+.clearfix{
+    clear:both;
+}
+
+/*内容开始*/
+/*我的订单开始*/
+.main_wrap{
+    width: 100%;
+    z-index: 10;
+    height: 12rem;
+}
+
+.order .order-top{
+    border-bottom: 1px solid #f0f0f0;
+    width: 100%;
+    height: 0.64rem;
+}
+
+.order .order-top p{
+    float: left;
+    font-size: 0.28rem;
+    color: black;
+    line-height: 0.64rem;
+    margin-left: 0.22rem;
+}
+
+.order .order-top a{
+    font-size: 0.28rem;
+    color: #666;
+    float: right;
+    line-height: 0.64rem;
+    margin-right: 0.2rem;
+}
+
+.order .order-con{
+    width: 100%;
+    margin-top: 0.2rem;
+    height: 0.84rem;
+}
+
+.order .order-con ul{
+    width: 100%;
+}
+
+.order .order-con ul li{
+    float: left;
+    width: 20%;
+}
+
+.order .order-con ul li a{
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+
+.order .order-con ul li a img{
+    margin: 0 auto;
+    width: 0.38rem;
+    height: 0.37rem;
+}
+
+.order .order-con ul li a p{
+    font-size: 0.24rem;
+    color: #000;
+    margin-top: 0.06rem;
+}
+
+.line{
+    width: 100%;
+    height: 0.1rem;
+    background: #f0f0f0;
+}
+
+.line2{
+    width: 100%;
+    height: 0.4rem;
+    background: #f0f0f0;
+}
+
+.property{
+    width: 100%;
+    height: 1.5rem;
+}
+
+.property p{
+    font-size: 0.28rem;
+    margin-left: 0.22rem;
+    margin-top: 0.2rem;
+}
+
+.property ul{
+    width: 100%;
+    border-top: #f0f0f0 0.01rem solid;
+}
+
+.property ul li{
+    float: left;
+    width: 20%;
+}
+
+.property ul li p{
+    color: #ff2307;
+    /*margin-left: 0.55rem;*/
+    text-align: center;
+}
+
+.property ul li a{
+    width: 100%;
+    margin-left: 0.56rem;
+    display: inline-block;
+}
+
+.property ul li a img{
+    width: 0.38rem;
+    height: 0.37rem;
+}
+
+.con-classification{
+    width: 100%;
+    height: 6.4rem;
+    background: white;
+}
+
+.con-classification p{
+    font-size: 0.28rem;
+    color: black;
+    margin-left: 0.22rem;
+    margin-top: 0.2rem;
+}
+
+.con-classification ul{
+    width: 100%;
+    border-top: #f0f0f0 0.01rem solid;
+}
+
+.con-classification ul li{
+    width: 25%;
+    float: left;
+    margin-top: 0.4rem;
+}
+
+.con-classification ul li a{
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+
+.con-classification ul li a img{
+    margin: 0 auto;
+    width: 0.66rem;
+    height: 0.66rem;
+}
+
+.con-classification ul li a p{
+    font-size: 0.26rem;
+    color: #000;
+    margin: 0.04rem;
+}
+
+.out{
+    width: 100%;
+    height: 0.6rem;
+    background: #ff2307;
+}
+
+.out a{
+    line-height: 0.6rem;
+    font-size: 0.28rem;
+    color: white;
+    margin-left: 40%;
+}
+
+/*footer*/
+
+footer{
+    width:100%;
+    max-width:7.5rem;
+    min-width:3.2rem;
+    height:0.98rem;
+    background:#fff;
+    position: fixed;
+    bottom:0;
+    left:50%;
+    transform:translateX(-50%);
+    z-index:101;
+    border:1px solid #e5e5e5;
+}
+
+footer ul{
+    display:flex;
+}
+
+footer ul li{
+    flex:1;
+    text-align:center;
+}
+
+footer ul li a{
+    display:inline-block;
+    width:1.17rem;
+    height:0.98rem;
+    padding:0.1rem 0;
+    font-size:0.2rem;
+    line-height:0.4rem;
+}
+
+footer ul li a span{
+    display:inline-block;
+    margin-left: -0.1rem;
+}
+
+footer ul li:nth-child(5) a{
+    color:#e60032;
+}

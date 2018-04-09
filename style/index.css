@@ -1,0 +1,391 @@
+/* CSS Document */
+
+.clearfix{
+    clear: both;
+}
+
+.m_header{
+    background: red;
+    max-width:7.5rem;
+    min-width:3.2rem;
+    height:0.88rem;
+    margin:0 auto;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index: 20;
+}
+
+.m_header_left{
+    width:0.48rem;
+    height:0.48rem;
+    font-size:0.48rem;
+    color: white;
+    position:absolute;
+    left:0.22rem;
+}
+
+
+
+.m_header_left p{
+    font-size: 0.22rem;
+    color: white;
+}
+
+.m_search{
+    width:100%;
+    height:0.66rem;
+
+    margin-top:0.10rem;
+}
+
+.m_search form{
+    width:100%;
+    height:100%;
+    padding:0 0.84rem 0 0.84rem;
+    position:relative;
+}
+
+.m_search form input[type=button]{
+    width:0.46rem;
+    height:0.46rem;
+    font-size:0.46rem;
+    color: dimgray;
+    background:transparent;/*透明*/
+    position:absolute;
+    top: 0.05rem;
+    left:1.18rem;
+}
+
+.m_search input[type=text]{
+    width:100%;
+    height:100%;
+    font-size:0.3rem;
+    background: white;
+    color: dimgray;
+    padding-left:0.9rem;
+    border-radius:0.3rem;
+}
+
+.m_header_right{
+    width:0.48rem;
+    height:0.48rem;
+    font-size:0.46rem;
+    color:#fff;
+    position:absolute;
+    right:0.22rem;
+    top: 0.05rem;
+}
+
+.m_header_right p{
+    font-size:0.22rem;
+    color: white;
+}
+
+/*.main_wrap{
+height: 800px;
+}*/
+
+.main_wrap .banner{
+    width: 100%;
+    height: auto;
+    margin-top: 0.88rem;
+}
+
+.main_wrap .banner .swiper-container{
+    width: 100%;
+}
+
+.main_wrap .banner .swiper-container .swiper-slide{
+    width: 100%;
+}
+
+.main_wrap .banner .swiper-container .swiper-slide img{
+    width: 100%;
+}
+
+nav{
+    width: 100%;
+    height: 2.6rem;
+    background: white;
+}
+
+nav ul{
+    width: 100%;
+    height: 100%;
+}
+
+nav ul li{
+    width: 20%;
+    height: 1.04rem;
+    float: left;
+    text-align: center;
+    margin-top:0.18rem;
+}
+
+nav ul li a img{
+    width:0.7rem;
+    height:0.7rem;
+    margin:0 auto;
+}
+
+nav ul li a p{
+    font-size:0.24rem;
+    color:#333333;
+    margin-top:0.06rem;
+}
+
+.floor_notice{
+    width:100%;
+    height:0.9rem;
+    border-bottom:1px solid #a4a1b2;
+    border-top:1px solid #a4a1b2;
+    padding:0 0.2rem;
+}
+
+
+
+.floor_notice .notice_bt h2{
+    float:left;
+    line-height:0.9rem;
+    font-size:0.28rem;
+}
+
+.floor_notice .notice_bt span{
+    float:left;
+    width:0.68rem;
+    height:0.4rem;
+    display:block;
+    background:#ff6699;
+    margin-top:0.26rem;
+    margin-left:0.12rem;
+    border-radius:0.04rem;
+    font-size:0.24rem;
+    color:#fff;
+    text-align:center;
+    line-height:0.4rem;
+}
+
+.floor_notice .notice_con{
+    width:70%;
+    height:100%;
+    float:left;
+}
+
+.floor_notice .notice_con .swiper-container{
+    width:100%;
+    height:100%;
+}
+
+.floor_notice .notice_con .swiper-container .swiper-slide{
+    width:100%;
+    height:100%;
+    white-space: nowrap;/*不换行*/
+    overflow:hidden;/*溢出隐藏*/
+    text-overflow:ellipsis;/*溢出出现省略号*/
+    line-height:0.9rem;
+    margin-left: 0.4rem;
+    color:#121212;
+}
+
+.floor_show{
+    width:100%;
+}
+
+.floor_show a{
+    width:100%;
+    display:block;
+}
+
+.floor_show a img{
+    width:100%;
+}
+
+/*floor_kill*/
+
+.floor_kill{
+    width: 100%;
+}
+
+
+.floor_kill .kill_bt{
+    width:100%;
+    height:0.9rem;
+    line-height:0.9rem;
+    border-bottom: #a4a1b2 1px solid;
+    padding:0 0.2rem;
+}
+
+.floor_kill .kill_bt h2{
+    font-weight:700;
+    font-size:0.3rem;
+    margin-right:0.2rem;
+    float:left;
+    margin-left: -0.6rem;
+}
+
+.floor_kill .kill_bt>div{
+    float:left;
+}
+
+.floor_kill .kill_bt>div>p{
+    font-size:0.22rem;
+    float:left;
+}
+
+.floor_kill .kill_bt>div>span{
+    font-size:0.22rem;
+    color:white;
+    background:#788186;
+    padding:0.04rem;
+    border-radius:0.05rem;
+    margin:0 0.04rem;
+}
+
+.floor_kill .kill_bt>a{
+    font-size:0.22rem;
+    float: right;
+}
+
+/*kill_con*/
+.floor_kill .kill_con{
+    width:100%;
+    height:3.66rem;
+    padding:0.1rem 0.1rem 0;
+}
+
+.floor_kill .kill_con .swiper-container{
+    width:100%;
+    height:100%;
+}
+
+.floor_kill .kill_con .swiper-container .swiper-slide{
+    width:2.02rem;
+    height:100%;
+}
+
+.floor_kill .kill_con .swiper-container .swiper-slide .pic{
+    width:2.02rem;
+    height:2.02rem;
+    overflow:hidden;
+}
+
+.floor_kill .kill_con .swiper-container .swiper-slide .pic img{
+    height:100%;
+    width:auto;
+}
+
+.floor_kill .kill_con .swiper-container .swiper-slide .text{
+    width:100%;
+    height:1.4rem;
+    font-size:0.24rem;
+    padding-top:0.12rem;
+}
+
+.floor_kill .kill_con .swiper-container .swiper-slide .text .name{
+    height:0.62rem;
+    overflow:hidden;
+}
+
+.floor_kill .kill_con .swiper-container .swiper-slide .text .pro{
+    color:#ff2307;
+    font-size:0.28rem;
+    margin-top:0.1rem;
+}
+
+.floor_kill .kill_con .swiper-container .swiper-slide .text .price{
+    color:#a4a1b2;
+    text-decoration:line-through;/*删除线*/
+}
+
+.list_con{
+    width:100%;
+    height: 8.0rem;
+    padding:0.1rem 0.1rem 0;/*左右边框*/
+}
+
+.list_con .list_container{
+    width: 100%;
+    height: 100%;
+}
+
+.list_con .list_container .list{
+    width:2.02rem;
+    height:100%;
+    float: left;
+    margin: 0.20rem;
+}
+.list_con .list_container .list .pic{
+    width:2.02rem;
+    height:2.02rem;
+    overflow:hidden;
+    float: left;
+}
+
+.list_con .list_container .list .pic img{
+    height:100%;
+    width: auto;
+}
+
+.list_con .list_container .list .text{
+    width:100%;
+    height:1.4rem;
+    font-size:0.24rem;
+    padding-top:0.12rem;
+    float: left;
+}
+
+.list_con .list_container .list .text .name{
+    height:0.62rem;
+    overflow:hidden;
+}
+
+.list_con .list_container .list .text .pro{
+    color:#ff2307;
+    font-size:0.28rem;
+    margin-top:0.1rem;
+}
+
+/*footer*/
+
+footer{
+    width:100%;
+    max-width:7.5rem;
+    min-width:3.2rem;
+    height:0.98rem;
+    background:#fff;
+    position: fixed;
+    bottom:0;
+    left:50%;
+    transform:translateX(-50%);
+    z-index:101;
+    border:1px solid #e5e5e5;
+}
+
+footer ul{
+    display:flex;
+}
+
+footer ul li{
+    flex:1;
+    text-align:center;
+}
+
+footer ul li a{
+    display:inline-block;
+    width:1.17rem;
+    height:0.98rem;
+    padding:0.1rem 0;
+    font-size:0.2rem;
+    line-height:0.4rem;
+}
+
+footer ul li a span{
+    display:inline-block;
+    margin-left: -0.1rem;
+}
+
+footer ul li:nth-child(1) a{
+    color:#e60032;
+}

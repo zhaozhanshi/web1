@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>万宠商城</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style/base.css">
+    <link rel="stylesheet" href="style/particulars.css">
+    <link rel="stylesheet" href="style/swiper-4.1.6.min.css">
+    <script src="js/adaptive.js"></script>
+</head>
+<body>
+
+<header class="m_header">
+    <div class="m_header_left iconfont">
+        &#xe6e1;
+    </div>
+    <div class="m_search">
+        <p>商品详情</p>
+    </div>
+    <div class="m_header_right iconfont">
+        <p>&#xe601;</p>
+    </div>
+</header>
+<div class="details-top m_layout">
+    <!--banner 商品轮播-->
+   <div class="banner">
+       <!--swiper-container-->
+       <div class="swiper-container swiper-banner">
+           <!--swiper-wrapper-->
+           <div class="swiper-wrapper ">
+               <div class="swiper-slide">
+                   <img src="images/particulars1.jpg">
+               </div>
+               <div class="swiper-slide">
+                   <img src="images/particulars2.jpg">
+               </div>
+               <div class="swiper-slide">
+                   <img src="images/particulars3.jpg">
+               </div>
+           </div>
+           <!-- 如果需要分页器 -->
+           <div class="swiper-pagination"></div>
+       </div>
+       <!--swiper-wrapper  end-->
+   </div>
+    <!--swiper-container end-->
+    <!--banner 商品轮播 结束-->
+    <!--detail_name-->
+    <div class="detail_name">
+        <h4>比瑞吉天然粮俱乐部幼犬狗粮10kg 15kg</h4>
+        <p class="one">
+            ￥275.00
+            <del>
+                ￥431.00
+            </del>
+        </p>
+        <p class="two">重量10kg&nbsp;&nbsp;&nbsp;&nbsp;满99包邮(20kg以内)</p>
+        <p class="three">万宠优品旗舰店发货 预计正常3-5个工作日送达</p>
+    </div>
+    <!--detail_name end-->
+    <div class="hx"></div>
+    <div class="choose">
+        <p>选择：
+            <span>"数量1"</span>
+            <a href="#">
+                <i class="iconfont" style="font-size:0.35rem;">
+                    &#xe6ab;
+                </i>
+            </a>
+        </p>
+    </div>
+    <!--choose end-->
+    <div class="hx"></div>
+    <div class="choose evaluate">
+        <p>
+            商品评价（100%好评，0人）
+            <a href="#">
+                <i class="iconfont" style="font-size:0.35rem;">
+                    &#xe6ab;
+                </i>
+            </a>
+        </p>
+    </div>
+    <!--brand_pic-->
+    <div class="hx"></div>
+    <div class="brand_pic">
+        <p>
+            <i class="iconfont" style="font-size:0.4rem;">
+                &#xe600;
+            </i>
+            图文详情
+        </p>
+       <div class="photo">
+           <img src="images/particulars4.jpg" alt="">
+           <img src="images/particulars5.jpg" alt="">
+           <img src="images/particulars6.jpg" alt="">
+           <img src="images/particulars7.jpg" alt="">
+           <img src="images/particulars8.jpg" alt="">
+           <img src="images/particulars9.jpg" alt="">
+           <img src="images/particulars10.jpg" alt="">
+           <img src="images/particulars11.jpg" alt="">
+        </div>
+    </div>
+    <div class="footer">
+        <ul>
+            <li><a href="#"><i class="iconfont">&#xe736;</i><p>店铺</p></a></li>
+            <li><a href="#"><i class="iconfont">&#xe60b;</i><p>收藏</p></a></li>
+            <li><a href="#"><i class="iconfont">&#xe658;</i><p>客服</p></a></li>
+
+        </ul>
+        <div class="jiaru1">加入购物车</div>
+        <div class="jiaru2">立即购买</div>
+    </div>
+</div>
+<script src="js/swiper-4.1.6.min.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-banner', {
+        loop : true,
+        autoplay: {
+            stopOnLastSlide: false,
+            disableOnInteraction: false,
+            delay: 2000,//1秒切换一次
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable : true,
+        },
+    });
+</script>
+</body>
+</html>
